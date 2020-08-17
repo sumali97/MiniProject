@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">tutorial</string>
+    <string name="SignIn_key">Sign In</string>
+    <string name="sing_key">Sing In</string>
+    <string name="Submit_key">Submit</string>
+    <string name="Log_key">Logging</string>
+    <string name="register_key">register</string>
+    <string name="get_key">Get Go</string>
+    <string name="Edit_key">Edit</string>
+    <string name="name_key">name</string>
+    <string name="mail_key">mail</string>
+    <string name="comment_key">Comment</string>
+
+
+</resources>
