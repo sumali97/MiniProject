@@ -16,8 +16,8 @@
         <activity android:name=".MealsList" />
         <activity android:name=".Findmeal" />
         <activity android:name=".AddFood" />
-        <activity android:name=".Menu" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

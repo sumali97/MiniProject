@@ -14,6 +14,7 @@ public class Details extends AppCompatActivity {
     EditText qty;
     private ImageButton done;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,5 +44,10 @@ public class Details extends AppCompatActivity {
 
             }
         });
+
+    }
+
+    public static float calculateDiscount(float price){
+        return(price * 5 / 100 );
     }
 }

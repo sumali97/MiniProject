@@ -45,6 +45,17 @@ public class AddFood extends AppCompatActivity {
         });
 
 
+        ed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(AddFood.this, EditMenu.class);
+                startActivity(intent);
+
+            }
+        });
+
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,22 +66,6 @@ public class AddFood extends AppCompatActivity {
                 Intent intent = new Intent(AddFood.this, Burgers.class);
                 intent.putExtra("keyname",name);
                 intent.putExtra("keyprice",prices);
-                startActivity(intent);
-
-            }
-        });
-
-        
-
-
-
-
-
-        ed.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(AddFood.this, EditMenu.class);
                 startActivity(intent);
 
             }
