@@ -34,6 +34,17 @@ public class AddFood extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
+        submit.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                DBHandler dbHandler = new DBHandler(getApplicationContext());
+                long newID = dbHandler.addInfo(mName.getText().toString(), price.getText().toString(), description.getText().toString());
+                Toast.makeText(AddFood.this, "Details Added. Meal ID:"+newID, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
