@@ -2,4 +2,17 @@
     <string name="app_name">New Android Project</string>
     <string name="Msg1">Here, I am the text message 1</string>
     <string name="Msg2">Here, I am the text message 2</string>
+    <string name="buttonSubmit">SUBMIT</string>
+    <string name="tx_name">Name</string>
+    <string name="tx_priceF">Price</string>
+    <string name="txDiscriptionF">Description</string>
+    <string name="button_promos">PROMOS</string>
+    <string name="button_menu">MENU</string>
+    <string name="button_register">REGISTER</string>
+    <string name="button_contact">CONTACT US</string>
+    <string name="button_about">ABOUT US</string>
+    <string name="search">SEARCH</string>
+    <string name="AddFood">ADDFOOD</string>
+    <string name="EditMenu">EDITMENU</string>
+    <string name="buttonadd">ADD</string>
 </resources>

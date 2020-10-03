@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".EditMenu">
 
     <EditText
-        android:id="@+id/editPrice2"
+        android:id="@+id/editPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.243" />
 
     <EditText
-        android:id="@+id/editDescription2"
+        android:id="@+id/editDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.443" />
 
     <TextView
-        android:id="@+id/pricetx2"
+        android:id="@+id/pricetx"
         android:layout_width="69dp"
         android:layout_height="38dp"
         android:text="@string/tx_priceF"
@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="@+id/destx2"
+        android:id="@+id/destx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txDiscriptionF"
@@ -63,7 +63,7 @@
         app:layout_constraintVertical_bias="0.353" />
 
     <Button
-        android:id="@+id/btnEdit2"
+        android:id="@+id/btnEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_orange_dark"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.557" />
 
     <Button
-        android:id="@+id/btnDelete2"
+        android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_red_dark"
@@ -89,7 +89,7 @@
         app:layout_constraintVertical_bias="0.67" />
 
     <Button
-        android:id="@+id/btnSearch2"
+        android:id="@+id/btnSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_orange_dark"
@@ -102,7 +102,7 @@
         app:layout_constraintVertical_bias="0.137" />
 
     <EditText
-        android:id="@+id/editName2"
+        android:id="@+id/editName"
         android:layout_width="413dp"
         android:layout_height="69dp"
         android:background="@android:color/holo_orange_dark"
@@ -116,4 +116,3 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
