@@ -10,12 +10,12 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.tutorial.database.DBDAFeedback;
-import com.example.tutorial.database.DBhandeler;
 
 public class feedback extends AppCompatActivity {
     EditText full_name,email_txt,comments;
     Button sub;
     DBDAFeedback myDBDAFeedback;
+
 
     private DBDAFeedback db = new DBDAFeedback(this);
 
