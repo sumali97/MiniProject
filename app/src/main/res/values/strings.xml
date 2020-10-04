@@ -10,6 +10,14 @@
     <string name="name_key">name</string>
     <string name="mail_key">mail</string>
     <string name="comment_key">Comment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_name">Please Enter Valid Email</string>
+    <string name="invalid_Email">Please Enter Valid Email</string>
+    <string name="invalid_password">please Enter Valid Password</string>
+    <string name="invalid_confirm_password">Please Enter Password Correctly</string>
+    <string name="invalid_address">Please Enter Address</string>
+    <string name="invalid_mobile">Please Enter Phone Number</string>
 
 
 </resources>

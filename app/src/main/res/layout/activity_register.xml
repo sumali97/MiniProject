@@ -4,259 +4,243 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/asd"
     tools:context=".register">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="4dp"
-        android:contentDescription="TODO"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="92dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="175dp"
-        android:text="Register"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/icon" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="48dp"
-        android:text="Firt Name"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:text="Firt Name" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="Rejister"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="204dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <ScrollView
+            android:layout_width="574dp"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="90dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="20dp"
-        android:text="Last Name"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:text="Last Name" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="204dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="20dp"
-        android:text="E Mail"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Firt Name"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Firt Name" />
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="209dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+                    <EditText
+                        android:id="@+id/fname"
+                        android:layout_width="180dp"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="20dp"
+                        android:ems="10"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/design_default_color_on_primary" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:text="Password"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:text="Password" />
+                </LinearLayout>
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="210dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"/>
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="96dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="4dp"
-        android:text="Confirm Password"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:text="Confirm Password" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="211dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="77dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:text="E Mail"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="20dp"
-        android:text="Contact Number"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+                    <EditText
+                        android:id="@+id/emailtxt"
+                        android:layout_width="180dp"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="20dp"
+                        android:ems="10"
+                        android:importantForAutofill="no"
+                        android:inputType="textEmailAddress"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/design_default_color_on_primary" />
 
-    <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="phone"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+                </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="20dp"
-        android:text="Address"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        tools:text="Address" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/editTextTextPostalAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Password"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Password" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="104dp"
-        android:text="@string/Log_key"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
+                    <EditText
+                        android:id="@+id/pswtxt_val"
+                        android:layout_width="193dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="20dp"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:textColor="@color/design_default_color_on_primary" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="103dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="212dp"
-        android:text="@string/register_key"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress" />
+                </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="52dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="23dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/mwnu"
-        android:contentDescription="TODO" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="52dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/chat"
-        android:contentDescription="TODO" />
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Confirm Password"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Confirm Password" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="52dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="236dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/cart" />
+                    <EditText
+                        android:id="@+id/conpw"
+                        android:layout_width="193dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="20dp"
+                        android:ems="10"
+                        android:importantForAutofill="no"
+                        android:inputType="textPassword"
+                        android:textColor="@color/design_default_color_on_primary" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="52dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="324dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/profile"
-        android:contentDescription="TODO" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="25dp"
+                        android:text="Address"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Address" />
+
+                    <EditText
+                        android:id="@+id/address_val"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:ems="10"
+                        android:inputType="textPostalAddress"
+                        android:textColor="@color/design_default_color_on_primary" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Contact Number"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/phone_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="10dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textColor="@color/design_default_color_on_primary" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/rejister"
+                        android:layout_width="147dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="110dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="212dp"
+                        android:background="@android:drawable/checkbox_off_background"
+                        android:text="@string/register_key"
+                        android:textColor="@color/design_default_color_error" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
