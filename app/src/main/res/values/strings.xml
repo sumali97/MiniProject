@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Payment System</string>
+    <string name="app_name">Burger Factory Payment</string>
+    <string name="cash_btn_save">SAVE</string>
+    <string name="cash_name">Full Name</string>
+    <string name="cash_phoneNo">Phone No.</string>
+    <string name="cash_province">Province</string>
+    <string name="cash_district">District</string>
+    <string name="cash_city">City</string>
+    <string name="cash_address">Address</string>
+    <string name="cash_display_name">Full Name :</string>
+    <string name="cash_display_phone">Phone No. :</string>
+    <string name="cash_display_province">Province :</string>
+    <string name="cash_display_district">District :</string>
+    <string name="cash_display_city">City :</string>
+    <string name="cash_display_address">Address :</string>
+</resources>
